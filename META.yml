@@ -1,0 +1,16 @@
+--- #YAML:1.0
+name: Regexp-Common-dns
+version: 0.00_01
+license: perl
+distribution_type: module
+requires:
+  Regexp::Common: 0
+recommends: {}
+build_requires:
+  Test::More: 0
+conflicts: {}
+provides:
+  Regexp::Common::dns:
+    file: lib/Regexp/Common/dns.pm
+    version: 0.00_01
+generated_by: Module::Build version 0.21

@@ -1,0 +1,37 @@
+Regexp::Common::dns - Common DNS Regular Expressions 
+====================================================
+
+Regexp::Common::dns provides regular expressions for parsing the
+BIND style textual representation of dns records.  
+
+This module is a work in progress.
+
+See the POD documentation in lib/Regexp/Common/dns.pm for more
+information.
+
+INSTALLATION
+
+To install this module type the following:
+
+	perl Build.PL
+	./Build
+	./Build test
+	./Build install
+
+DEPENDENCIES
+
+This module requires that Regexp::Common be installed.  The test suite
+requires Test::More which is part of the Test-Simple distribution.
+
+AUTHOR
+
+Chris Reinhardt
+ctriv@dyndns.org
+
+COPYRIGHT AND LICENCE
+
+Copyright (c) 2003 Chris Reinhardt.  All rights reserved.  This
+program is free software; you may redistribute it and/or modify it
+under the same terms as Perl itself.
+
+$Id: README,v 1.2 2003/11/19 02:42:43 ctriv Exp $
